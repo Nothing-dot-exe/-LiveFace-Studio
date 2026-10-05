@@ -1,0 +1,62 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual Environments
+venv/
+.venv/
+env/
+tf_env/
+
+# All Image Files (User requested: no images pushed)
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tiff
+*.ico
+media/
+images/
+
+# Video Media
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+
+# Large Binaries (>100MB exceeds GitHub limits)
+ffmpeg.exe
+ffprobe.exe
+*.exe
+
+# Allow Batch Scripts
+!run.bat
+!setup.bat
+
+# AI Models & Weights
+models/
+*.onnx
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Temporary & Cache Files
+.tmp/
+temp/
+*.log
+*.backup
+switch_states.json
+
+# IDE & Editor Files
+.vscode/
+.idea/
+.todo
+/.claude
+.DS_Store
+Thumbs.db
